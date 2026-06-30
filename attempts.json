@@ -1,0 +1,5162 @@
+{
+  "generated_at": "2026-06-30T23:45:49.776318+00:00",
+  "source_file": "mission_images.json",
+  "total_attempts": 58,
+  "attempts": [
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07-55-12/SKG Start - 11",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07:55:12",
+      "action_name": "SKG Start - 11",
+      "started": "2026-04-28T22:23:18.818317824Z",
+      "ended": "2026-04-28T22:24:24.284263538Z",
+      "channel_count": 22,
+      "total_images": 642,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 61
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 61
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 61
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 61
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 61
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 61
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 61
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 48
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 59
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07-55-12/SKG Start - 12",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07:55:12",
+      "action_name": "SKG Start - 12",
+      "started": "2026-04-28T22:37:18.994611968Z",
+      "ended": "2026-04-28T22:38:23.766153984Z",
+      "channel_count": 22,
+      "total_images": 650,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 63
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 63
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 63
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 63
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 63
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 63
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 18
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 63
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 40
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 61
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07-55-12/SKG Start - 13",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07:55:12",
+      "action_name": "SKG Start - 13",
+      "started": "2026-04-28T22:39:04.016557824Z",
+      "ended": "2026-04-28T22:41:41.607230976Z",
+      "channel_count": 22,
+      "total_images": 1542,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 152
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 152
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 152
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 152
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 152
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 152
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 152
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 98
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 146
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07-55-12/SKG Start - 14",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07:55:12",
+      "action_name": "SKG Start - 14",
+      "started": "2026-04-28T22:43:04.066867968Z",
+      "ended": "2026-04-28T22:45:29.909106944Z",
+      "channel_count": 22,
+      "total_images": 1491,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 143
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 143
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 143
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 40
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 40
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 40
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 40
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 40
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 143
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 143
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 143
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 40
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 143
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 112
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 138
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07-55-12/SKG Start - 15",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-28 07:55:12",
+      "action_name": "SKG Start - 15",
+      "started": "2026-04-28T22:46:09.105664000Z",
+      "ended": "2026-04-28T22:52:38.487249664Z",
+      "channel_count": 22,
+      "total_images": 4117,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 382
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 382
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 384
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 122
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 122
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 122
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 122
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 122
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 384
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 384
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 384
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 122
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 384
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 333
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 368
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T170103Z_Mill 1 floor/SKG Start - 1",
+      "group_name": "2026-04-29T170103Z_Mill 1 floor",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-29T17:00:07.873330176Z",
+      "ended": "2026-04-29T17:20:43.950988288Z",
+      "channel_count": 22,
+      "total_images": 12396,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 1225
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 1225
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1230
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 306
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 306
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 306
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 306
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 306
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1230
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1230
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1230
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 306
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1230
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 786
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 1174
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/SKG Start - 1",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-29T18:14:03.801379840Z",
+      "ended": "2026-04-29T18:33:01.108932096Z",
+      "channel_count": 22,
+      "total_images": 11135,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 1120
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 1120
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1122
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 282
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 282
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 282
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 282
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 282
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1122
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1122
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1122
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 283
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1122
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 723
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 869
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231023Z_Mill 1 floor/SKG Start - 1",
+      "group_name": "2026-04-29T231023Z_Mill 1 floor",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-29T23:11:22.533833984Z",
+      "ended": "2026-04-29T23:14:30.143675097Z",
+      "channel_count": 23,
+      "total_images": 2166,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 181
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 181
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 182
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 82
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 82
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 82
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 82
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 82
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 182
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 182
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 182
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 82
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 182
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 82
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 145
+        },
+        {
+          "name": "raw-sv600--audio-leq",
+          "label": "raw-sv600--audio-leq",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 175
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/SKG Start - 1",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-29T23:14:27.572645888Z",
+      "ended": "2026-04-29T23:33:23.266980864Z",
+      "channel_count": 23,
+      "total_images": 12418,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 1099
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 1099
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1124
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 460
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 460
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 460
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 460
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 460
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1124
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1124
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1124
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 460
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1124
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 460
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 733
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 647
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 09-05-49/SKG Start - 1",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 09:05:49",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-30T16:12:20.342753024Z",
+      "ended": "2026-04-30T16:12:40.028717056Z",
+      "channel_count": 19,
+      "total_images": 142,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 15
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 15
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 5
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 5
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 8
+        },
+        {
+          "name": "raw-sv600--audio-leq",
+          "label": "raw-sv600--audio-leq",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 14
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-30T163239Z_GL5 New/SKG Start - 1",
+      "group_name": "2026-04-30T163239Z_GL5 New",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-30T16:32:15.593348864Z",
+      "ended": "2026-04-30T16:43:25.098970624Z",
+      "channel_count": 19,
+      "total_images": 6197,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 659
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 659
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 663
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 663
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 663
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 663
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 253
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 663
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 253
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 417
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 641
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 09-49-37/SKG Start - 1",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 09:49:37",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-30T18:08:16.799047936Z",
+      "ended": "2026-04-30T18:08:45.360708864Z",
+      "channel_count": 19,
+      "total_images": 278,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 29
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 29
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 29
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 29
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 29
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 24
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 27
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 09-49-37/SKG Start - 2",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 09:49:37",
+      "action_name": "SKG Start - 2",
+      "started": "2026-04-30T18:09:11.809026564Z",
+      "ended": "2026-04-30T18:09:27.530199437Z",
+      "channel_count": 19,
+      "total_images": 149,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 5
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 16
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 5
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 11
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 16
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 12-52-58/SKG Start - 1",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 12:52:58",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-30T20:04:11.526455040Z",
+      "ended": "2026-04-30T20:17:35.254795776Z",
+      "channel_count": 24,
+      "total_images": 9516,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 795
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 795
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 797
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 359
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 359
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 359
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 359
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 359
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 797
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 797
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 797
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 359
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 797
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 359
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 658
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 770
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 12-52-58/SKG Start - 2",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 12:52:58",
+      "action_name": "SKG Start - 2",
+      "started": "2026-04-30T20:17:37.127924033Z",
+      "ended": "2026-04-30T20:19:25.150527400Z",
+      "channel_count": 24,
+      "total_images": 1244,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 47
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 47
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 47
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 47
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 47
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 47
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 47
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 86
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 101
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 12-52-58/SKG Start - 3",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 12:52:58",
+      "action_name": "SKG Start - 3",
+      "started": "2026-04-30T20:20:28.913288936Z",
+      "ended": "2026-04-30T20:29:30.225884192Z",
+      "channel_count": 24,
+      "total_images": 6388,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 534
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 534
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 535
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 242
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 242
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 242
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 242
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 242
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 535
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 535
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 535
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 242
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 535
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 242
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 435
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 516
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 13-55-07/SKG Start - 1",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 13:55:07",
+      "action_name": "SKG Start - 1",
+      "started": "2026-04-30T20:59:24.240732928Z",
+      "ended": "2026-04-30T21:00:31.854147852Z",
+      "channel_count": 24,
+      "total_images": 768,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 64
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 64
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 66
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 66
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 66
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 66
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 66
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 52
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 62
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 13-55-07/SKG Start - 2",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 13:55:07",
+      "action_name": "SKG Start - 2",
+      "started": "2026-04-30T21:00:39.256429056Z",
+      "ended": "2026-04-30T21:07:17.876292096Z",
+      "channel_count": 24,
+      "total_images": 4764,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 396
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 396
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 396
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 180
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 180
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 180
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 180
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 180
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 396
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 396
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 396
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 180
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 396
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 180
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 348
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 384
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 13-55-07/SKG Start - 3",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-04-30 13:55:07",
+      "action_name": "SKG Start - 3",
+      "started": "2026-04-30T21:07:34.342819840Z",
+      "ended": "2026-04-30T21:19:39.803983164Z",
+      "channel_count": 24,
+      "total_images": 8616,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 722
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 722
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 723
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 323
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 323
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 323
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 323
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 323
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 723
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 723
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 723
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 323
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 723
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 323
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 596
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 700
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-01 09-22-20/SKG Start - 1",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-01 09:22:20",
+      "action_name": "SKG Start - 1",
+      "started": "2026-05-01T17:08:16.021318912Z",
+      "ended": "2026-05-01T17:24:08.437786625Z",
+      "channel_count": 24,
+      "total_images": 10678,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 946
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 946
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 947
+        },
+        {
+          "name": "raw-image--c0",
+          "label": "c0",
+          "category": "image",
+          "image_count": 363
+        },
+        {
+          "name": "raw-image--c1",
+          "label": "c1",
+          "category": "image",
+          "image_count": 363
+        },
+        {
+          "name": "raw-image--c2",
+          "label": "c2",
+          "category": "image",
+          "image_count": 363
+        },
+        {
+          "name": "raw-image--c3",
+          "label": "c3",
+          "category": "image",
+          "image_count": 363
+        },
+        {
+          "name": "raw-image--c4",
+          "label": "c4",
+          "category": "image",
+          "image_count": 363
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 947
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 947
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 947
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 363
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 947
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 363
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 595
+        },
+        {
+          "name": "raw-sv600--audio-leq",
+          "label": "raw-sv600--audio-leq",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 915
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-05-07T205432Z_skg test new update/SKG Start - 1",
+      "group_name": "2026-05-07T205432Z_skg test new update",
+      "action_name": "SKG Start - 1",
+      "started": "2026-05-07T20:49:03.297053952Z",
+      "ended": "2026-05-07T20:49:34.668821474Z",
+      "channel_count": 19,
+      "total_images": 238,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 26
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 26
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 26
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 26
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 26
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 26
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 6
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 26
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 6
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 18
+        },
+        {
+          "name": "raw-sv600--audio-leq",
+          "label": "raw-sv600--audio-leq",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 26
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-05-07T205109Z_skg test new update/SKG Start - 1",
+      "group_name": "2026-05-07T205109Z_skg test new update",
+      "action_name": "SKG Start - 1",
+      "started": "2026-05-07T20:52:03.334908928Z",
+      "ended": "2026-05-07T20:52:18.654897920Z",
+      "channel_count": 19,
+      "total_images": 101,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 11
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 11
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 11
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 11
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 11
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 11
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 3
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 11
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 3
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 7
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 11
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-05-07T210020Z_new tesk skg update/SKG Start - 1",
+      "group_name": "2026-05-07T210020Z_new tesk skg update",
+      "action_name": "SKG Start - 1",
+      "started": "2026-05-07T20:55:58.297889284Z",
+      "ended": "2026-05-07T20:56:22.750011736Z",
+      "channel_count": 19,
+      "total_images": 228,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 25
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 25
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 25
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 25
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 25
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 25
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 7
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 25
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 7
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 14
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 25
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-05-07T205747Z_new tesk skg update/SKG Start - 1",
+      "group_name": "2026-05-07T205747Z_new tesk skg update",
+      "action_name": "SKG Start - 1",
+      "started": "2026-05-07T20:58:18.413101824Z",
+      "ended": "2026-05-07T20:58:36.059749888Z",
+      "channel_count": 19,
+      "total_images": 120,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 4
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 13
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 4
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 8
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 13
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-07 14-12-35/SKG Start - 1",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-07 14:12:35",
+      "action_name": "SKG Start - 1",
+      "started": "2026-05-07T21:07:03.522695168Z",
+      "ended": "2026-05-07T21:08:51.291098880Z",
+      "channel_count": 18,
+      "total_images": 970,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 37
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 37
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 67
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 101
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-07 14-12-35/SKG Start - 2",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-07 14:12:35",
+      "action_name": "SKG Start - 2",
+      "started": "2026-05-07T21:08:48.544646144Z",
+      "ended": "2026-05-07T21:14:20.948657664Z",
+      "channel_count": 19,
+      "total_images": 3069,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 327
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 327
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 329
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 329
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 329
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 329
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 123
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 329
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 123
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 208
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 316
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-11 07-31-13/SKG Start - 1",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-11 07:31:13",
+      "action_name": "SKG Start - 1",
+      "started": "2026-05-11T14:29:50.923214848Z",
+      "ended": "2026-05-11T14:31:36.565060096Z",
+      "channel_count": 18,
+      "total_images": 945,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 103
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 103
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 103
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 103
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 103
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 103
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 103
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 28
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 68
+        },
+        {
+          "name": "raw-sv600--audio-leq",
+          "label": "raw-sv600--audio-leq",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 100
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-11 07-31-13/SKG Start - 2",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-11 07:31:13",
+      "action_name": "SKG Start - 2",
+      "started": "2026-05-11T14:31:35.945136128Z",
+      "ended": "2026-05-11T14:33:19.823048192Z",
+      "channel_count": 19,
+      "total_images": 971,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 104
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 39
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 64
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 101
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-11 07-31-13/SKG Start - 3",
+      "group_name": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-11 07:31:13",
+      "action_name": "SKG Start - 3",
+      "started": "2026-05-11T14:33:25.968185856Z",
+      "ended": "2026-05-11T14:34:40.467681280Z",
+      "channel_count": 19,
+      "total_images": 672,
+      "channels": [
+        {
+          "name": "raw-image--MecQ_Soundsurface",
+          "label": "MecQ_Soundsurface",
+          "category": "image",
+          "image_count": 72
+        },
+        {
+          "name": "raw-image--Soundsurface",
+          "label": "Soundsurface",
+          "category": "image",
+          "image_count": 72
+        },
+        {
+          "name": "raw-image--back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 72
+        },
+        {
+          "name": "raw-image--frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 72
+        },
+        {
+          "name": "raw-image--frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 72
+        },
+        {
+          "name": "raw-image--left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 72
+        },
+        {
+          "name": "raw-image--ptz",
+          "label": "ptz",
+          "category": "image",
+          "image_count": 27
+        },
+        {
+          "name": "raw-image--right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 72
+        },
+        {
+          "name": "raw-image--tiled-ring",
+          "label": "tiled-ring",
+          "category": "image",
+          "image_count": 27
+        },
+        {
+          "name": "raw-robot--graphnav-graph",
+          "label": "raw-robot--graphnav-graph",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--graphnav-localization",
+          "label": "raw-robot--graphnav-localization",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--hardware-config",
+          "label": "raw-robot--hardware-config",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--metrics",
+          "label": "raw-robot--metrics",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-robot--state",
+          "label": "raw-robot--state",
+          "category": "robot",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--audio",
+          "label": "raw-spotcam--audio",
+          "category": "spotcam",
+          "image_count": 0
+        },
+        {
+          "name": "raw-spotcam--ir-radiometric",
+          "label": "raw-spotcam--ir-radiometric",
+          "category": "spotcam",
+          "image_count": 44
+        },
+        {
+          "name": "raw-sv600--beamforming",
+          "label": "raw-sv600--beamforming",
+          "category": "sv600",
+          "image_count": 0
+        },
+        {
+          "name": "raw-sv600--video",
+          "label": "raw-sv600--video",
+          "category": "sv600",
+          "image_count": 70
+        },
+        {
+          "name": "raw-sv600--ws-unknown",
+          "label": "raw-sv600--ws-unknown",
+          "category": "sv600",
+          "image_count": 0
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-30T163239Z_GL5 New/Spot Cam - PTZ - 1",
+      "group_name": "2026-04-30T163239Z_GL5 New",
+      "action_name": "Spot Cam - PTZ - 1",
+      "started": null,
+      "ended": null,
+      "channel_count": 0,
+      "total_images": 0,
+      "channels": []
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-1 navigation failed",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "Element 1 attempt 1-1 navigation failed",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-9 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-9 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-3 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-3 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-2 navigation failed",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "Element 1 attempt 1-2 navigation failed",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-7 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-7 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-4 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-4 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-3 navigation failed",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "Element 1 attempt 1-3 navigation failed",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-10 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-10 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-5 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-5 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-6 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-6 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-8 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-8 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-2 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-2 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231347Z_Mill 1 floor/waiting-for-entities attempt 1-1 ",
+      "group_name": "2026-04-29T231347Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-1 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/Dock attempt 4-1 failure",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "Dock attempt 4-1 failure",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/Element 1 attempt 1-1 navigation failed",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "Element 1 attempt 1-1 navigation failed",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/waiting-for-entities attempt 1-3 ",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-3 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/Element 1 attempt 1-2 navigation failed",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "Element 1 attempt 1-2 navigation failed",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/waiting-for-entities attempt 1-7 ",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-7 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/waiting-for-entities attempt 1-4 ",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-4 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/waiting-for-entities attempt 1-5 ",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-5 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/waiting-for-entities attempt 1-6 ",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-6 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/Element 2 attempt 1-1 navigation failed",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "Element 2 attempt 1-1 navigation failed",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/waiting-for-entities attempt 1-2 ",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-2 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T181333Z_Mill 1 floor/waiting-for-entities attempt 1-1 ",
+      "group_name": "2026-04-29T181333Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 1-1 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231023Z_Mill 1 floor/waiting-for-entities attempt 3-1 ",
+      "group_name": "2026-04-29T231023Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 3-1 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231023Z_Mill 1 floor/waiting-for-entities attempt 3-2 ",
+      "group_name": "2026-04-29T231023Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 3-2 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231023Z_Mill 1 floor/Interrupt Mission 1",
+      "group_name": "2026-04-29T231023Z_Mill 1 floor",
+      "action_name": "Interrupt Mission 1",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    },
+    {
+      "attempt_folder": "2026-04-29T231023Z_Mill 1 floor/waiting-for-entities attempt 3-3 ",
+      "group_name": "2026-04-29T231023Z_Mill 1 floor",
+      "action_name": "waiting-for-entities attempt 3-3 ",
+      "started": null,
+      "ended": null,
+      "channel_count": 5,
+      "total_images": 5,
+      "channels": [
+        {
+          "name": "image_back_fisheye_image",
+          "label": "back_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontleft_fisheye_image",
+          "label": "frontleft_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_frontright_fisheye_image",
+          "label": "frontright_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_left_fisheye_image",
+          "label": "left_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        },
+        {
+          "name": "image_right_fisheye_image",
+          "label": "right_fisheye_image",
+          "category": "image",
+          "image_count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "generated_at": "2026-06-30T23:45:49.774746+00:00",
+  "source_file": "mission_images.json",
+  "total_channels": 30,
+  "categories": [
+    "image",
+    "robot",
+    "spotcam",
+    "sv600"
+  ],
+  "channels": [
+    {
+      "name": "image_back_fisheye_image",
+      "short": "image",
+      "label": "back_fisheye_image",
+      "category": "image",
+      "attempts_present": 28,
+      "total_images": 28,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-1 navigation failed/image_back_fisheye_image/no-ts_000000.jpg"
+    },
+    {
+      "name": "image_frontleft_fisheye_image",
+      "short": "image",
+      "label": "frontleft_fisheye_image",
+      "category": "image",
+      "attempts_present": 28,
+      "total_images": 28,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-1 navigation failed/image_frontleft_fisheye_image/no-ts_000000.jpg"
+    },
+    {
+      "name": "image_frontright_fisheye_image",
+      "short": "image",
+      "label": "frontright_fisheye_image",
+      "category": "image",
+      "attempts_present": 28,
+      "total_images": 28,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-1 navigation failed/image_frontright_fisheye_image/no-ts_000000.jpg"
+    },
+    {
+      "name": "image_left_fisheye_image",
+      "short": "image",
+      "label": "left_fisheye_image",
+      "category": "image",
+      "attempts_present": 28,
+      "total_images": 28,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-1 navigation failed/image_left_fisheye_image/no-ts_000000.jpg"
+    },
+    {
+      "name": "image_right_fisheye_image",
+      "short": "image",
+      "label": "right_fisheye_image",
+      "category": "image",
+      "attempts_present": 28,
+      "total_images": 28,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/Element 1 attempt 1-1 navigation failed/image_right_fisheye_image/no-ts_000000.jpg"
+    },
+    {
+      "name": "raw-image--MecQ_Soundsurface",
+      "short": "MecQ_Soundsurface",
+      "label": "MecQ_Soundsurface",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 9490,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--MecQ_Soundsurface/2026-05-07T20-52-09-338294591Z.jpg"
+    },
+    {
+      "name": "raw-image--Soundsurface",
+      "short": "Soundsurface",
+      "label": "Soundsurface",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 9490,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--Soundsurface/2026-05-07T20-52-09-338294591Z.jpg"
+    },
+    {
+      "name": "raw-image--back_fisheye_image",
+      "short": "back_fisheye_image",
+      "label": "back_fisheye_image",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 9540,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--back_fisheye_image/2026-05-07T20-52-16-443339268Z.jpg"
+    },
+    {
+      "name": "raw-image--c0",
+      "short": "c0",
+      "label": "c0",
+      "category": "image",
+      "attempts_present": 16,
+      "total_images": 2909,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/SKG Start - 1/raw-image--c0/2026-04-29T23-15-54-183106304Z.jpg"
+    },
+    {
+      "name": "raw-image--c1",
+      "short": "c1",
+      "label": "c1",
+      "category": "image",
+      "attempts_present": 16,
+      "total_images": 2909,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/SKG Start - 1/raw-image--c1/2026-04-29T23-15-54-183106304Z.jpg"
+    },
+    {
+      "name": "raw-image--c2",
+      "short": "c2",
+      "label": "c2",
+      "category": "image",
+      "attempts_present": 16,
+      "total_images": 2909,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/SKG Start - 1/raw-image--c2/2026-04-29T23-15-54-183106304Z.jpg"
+    },
+    {
+      "name": "raw-image--c3",
+      "short": "c3",
+      "label": "c3",
+      "category": "image",
+      "attempts_present": 16,
+      "total_images": 2909,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/SKG Start - 1/raw-image--c3/2026-04-29T23-15-54-183106304Z.jpg"
+    },
+    {
+      "name": "raw-image--c4",
+      "short": "c4",
+      "label": "c4",
+      "category": "image",
+      "attempts_present": 16,
+      "total_images": 2909,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-04-29T231347Z_Mill 1 floor/SKG Start - 1/raw-image--c4/2026-04-29T23-15-54-183106304Z.jpg"
+    },
+    {
+      "name": "raw-image--frontleft_fisheye_image",
+      "short": "frontleft_fisheye_image",
+      "label": "frontleft_fisheye_image",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 9540,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--frontleft_fisheye_image/2026-05-07T20-52-09-374937348Z.jpg"
+    },
+    {
+      "name": "raw-image--frontright_fisheye_image",
+      "short": "frontright_fisheye_image",
+      "label": "frontright_fisheye_image",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 9540,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--frontright_fisheye_image/2026-05-07T20-52-09-374937348Z.jpg"
+    },
+    {
+      "name": "raw-image--left_fisheye_image",
+      "short": "left_fisheye_image",
+      "label": "left_fisheye_image",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 9540,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--left_fisheye_image/2026-05-07T20-52-16-443339268Z.jpg"
+    },
+    {
+      "name": "raw-image--ptz",
+      "short": "ptz",
+      "label": "ptz",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 3460,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--ptz/2026-05-07T20-52-12-690461184Z.jpg"
+    },
+    {
+      "name": "raw-image--right_fisheye_image",
+      "short": "right_fisheye_image",
+      "label": "right_fisheye_image",
+      "category": "image",
+      "attempts_present": 29,
+      "total_images": 9540,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--right_fisheye_image/2026-05-07T20-52-16-443339268Z.jpg"
+    },
+    {
+      "name": "raw-image--tiled-ring",
+      "short": "tiled-ring",
+      "label": "tiled-ring",
+      "category": "image",
+      "attempts_present": 22,
+      "total_images": 2634,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-image--tiled-ring/2026-05-07T20-52-17-683949568Z.jpg"
+    },
+    {
+      "name": "raw-robot--graphnav-graph",
+      "short": "graphnav-graph",
+      "label": "raw-robot--graphnav-graph",
+      "category": "robot",
+      "attempts_present": 29,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-robot--graphnav-graph"
+    },
+    {
+      "name": "raw-robot--graphnav-localization",
+      "short": "graphnav-localization",
+      "label": "raw-robot--graphnav-localization",
+      "category": "robot",
+      "attempts_present": 29,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-robot--graphnav-localization"
+    },
+    {
+      "name": "raw-robot--hardware-config",
+      "short": "hardware-config",
+      "label": "raw-robot--hardware-config",
+      "category": "robot",
+      "attempts_present": 29,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-robot--hardware-config"
+    },
+    {
+      "name": "raw-robot--metrics",
+      "short": "metrics",
+      "label": "raw-robot--metrics",
+      "category": "robot",
+      "attempts_present": 29,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-robot--metrics"
+    },
+    {
+      "name": "raw-robot--state",
+      "short": "state",
+      "label": "raw-robot--state",
+      "category": "robot",
+      "attempts_present": 29,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-robot--state"
+    },
+    {
+      "name": "raw-spotcam--audio",
+      "short": "audio",
+      "label": "raw-spotcam--audio",
+      "category": "spotcam",
+      "attempts_present": 18,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-spotcam--audio"
+    },
+    {
+      "name": "raw-spotcam--ir-radiometric",
+      "short": "ir-radiometric",
+      "label": "raw-spotcam--ir-radiometric",
+      "category": "spotcam",
+      "attempts_present": 29,
+      "total_images": 6746,
+      "has_images": true,
+      "extensions": [
+        ".raw"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-spotcam--ir-radiometric/raw/2026-05-07T20-52-13-770818048Z.raw"
+    },
+    {
+      "name": "raw-sv600--audio-leq",
+      "short": "audio-leq",
+      "label": "raw-sv600--audio-leq",
+      "category": "sv600",
+      "attempts_present": 5,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "bosdyn.android.spotapp 6f0783db8c2ae950 teleop 2026-05-11 07-31-13/SKG Start - 1/raw-sv600--audio-leq"
+    },
+    {
+      "name": "raw-sv600--beamforming",
+      "short": "beamforming",
+      "label": "raw-sv600--beamforming",
+      "category": "sv600",
+      "attempts_present": 29,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-sv600--beamforming"
+    },
+    {
+      "name": "raw-sv600--video",
+      "short": "video",
+      "label": "raw-sv600--video",
+      "category": "sv600",
+      "attempts_present": 29,
+      "total_images": 8546,
+      "has_images": true,
+      "extensions": [
+        ".jpg"
+      ],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-sv600--video/2026-05-07T20-52-12-445665043Z.jpg"
+    },
+    {
+      "name": "raw-sv600--ws-unknown",
+      "short": "ws-unknown",
+      "label": "raw-sv600--ws-unknown",
+      "category": "sv600",
+      "attempts_present": 24,
+      "total_images": 0,
+      "has_images": false,
+      "extensions": [],
+      "example_path": "2026-05-07T205109Z_skg test new update/SKG Start - 1/raw-sv600--ws-unknown"
+    }
+  ]
+}
