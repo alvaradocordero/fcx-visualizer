@@ -1,0 +1,12 @@
+{
+  "row_1": ["raw-spotcam--ir-radiometric", "raw-image--ptz"],
+  "row_2": ["raw-image--c0", "raw-image--c1", "raw-image--c2", "raw-image--c3", "raw-image--c4"],
+  "row_3": [
+    "raw-image--back_fisheye_image",
+    "raw-image--frontleft_fisheye_image",
+    "raw-image--frontright_fisheye_image",
+    "raw-image--left_fisheye_image",
+    "raw-image--right_fisheye_image"
+  ],
+  "row_4": ["raw-image--tiled-ring"]
+}
