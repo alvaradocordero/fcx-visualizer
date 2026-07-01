@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-06-30T23:59:08.644506+00:00",
+  "ended_at": "2026-06-30T23:59:08.861352+00:00",
+  "duration_sec": 0.2166,
+  "parameters": {
+    "images_file": "mission_images.json",
+    "positions_file": "mission_positions.json",
+    "svg_directory": "svg",
+    "channels_output": "channels.json",
+    "attempts_output": "attempts.json",
+    "log_file": "script.json"
+  },
+  "results": {
+    "channels": {
+      "total_channels": 30
+    },
+    "attempts": {
+      "total_attempts": 58
+    },
+    "svgs": {
+      "maps_written": 29,
+      "maps_skipped": 0
+    }
+  },
+  "status": "ok"
+}

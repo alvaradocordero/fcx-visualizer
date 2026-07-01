@@ -1,0 +1,8 @@
+{
+  "images_file": "mission_images.json",
+  "positions_file": "mission_positions.json",
+  "svg_directory": "svg",
+  "channels_output": "channels.json",
+  "attempts_output": "attempts.json",
+  "log_file": "script.json"
+}
