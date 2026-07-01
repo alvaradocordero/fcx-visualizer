@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FCX Mission Image Viewer</title>
+<style>
+  :root {
+    --bg:#0f1420; --panel:#171f2e; --panel2:#1d2638; --txt:#e6edf3;
+    --mut:#9aa7b5; --acc:#2f81f7; --line:#2a3650;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+  header {
+    position:sticky; top:0; z-index:5; background:var(--panel);
+    border-bottom:1px solid var(--line); padding:10px 16px;
+    display:flex; flex-wrap:wrap; gap:12px; align-items:center;
+  }
+  header h1 { font-size:16px; margin:0; margin-right:auto; font-weight:600; }
+  select, button, input[type=range] {
+    background:var(--panel2); color:var(--txt); border:1px solid var(--line);
+    border-radius:6px; padding:6px 10px; font-size:13px;
+  }
+  button { cursor:pointer; }
+  button:hover { border-color:var(--acc); }
+  button:disabled { opacity:.4; cursor:default; }
+  #time { font-variant-numeric:tabular-nums; min-width:96px; text-align:center;
+           color:var(--acc); font-weight:600; }
+  .scrub { display:flex; align-items:center; gap:8px; flex:1 1 320px; }
+  input[type=range] { flex:1; }
+  main { padding:14px 16px 40px; }
+  .row { margin-bottom:14px; }
+  .row-title { color:var(--mut); font-size:12px; letter-spacing:.04em;
+               text-transform:uppercase; margin:0 0 6px; }
+  .cells { display:flex; gap:10px; }
+  .cell { flex:1 1 0; background:var(--panel); border:1px solid var(--line);
+          border-radius:8px; overflow:hidden; min-width:0; }
+  .cell .cap { display:flex; justify-content:space-between; gap:8px;
+               padding:5px 8px; font-size:11px; color:var(--mut);
+               background:var(--panel2); }
+  .cell .cap b { color:var(--txt); font-weight:600; }
+  .cell img { width:100%; display:block; background:#000;
+              min-height:90px; object-fit:contain; }
+  .cell-map { flex:0 0 230px; }
+  .cell-map img { aspect-ratio:1/1; background:#0f1420; }
+  .empty { padding:18px 8px; text-align:center; color:var(--mut); font-size:12px; }
+  .placeholder { padding:30px; text-align:center; color:var(--mut); }
+</style>
+</head>
+<body>
+<header>
+  <h1>FCX Mission Viewer</h1>
+  <label style="display:flex;gap:6px;align-items:center;">
+    <span style="color:var(--mut);font-size:12px;">Attempt</span>
+    <select id="attempt"></select>
+  </label>
+  <div class="scrub">
+    <button id="prev" title="&#8722;1 s">&#9664;</button>
+    <input type="range" id="slider" min="0" max="1" step="1" value="0" disabled>
+    <button id="next" title="+1 s">&#9654;</button>
+    <span id="time">--:--:--</span>
+    <button id="play">Play</button>
+  </div>
+</header>
+<main id="main"><div class="placeholder">Select an attempt to begin.</div></main>
+
+<script src="viewer_data.js"></script>
+<script>
+window.ACTIVE_CHANNELS = {"row_1": ["raw-spotcam--ir-radiometric", "raw-image--ptz"], "row_2": ["raw-image--c0", "raw-image--c1", "raw-image--c2", "raw-image--c3", "raw-image--c4"], "row_3": ["raw-image--back_fisheye_image", "raw-image--frontleft_fisheye_image", "raw-image--frontright_fisheye_image", "raw-image--left_fisheye_image", "raw-image--right_fisheye_image"], "row_4": ["raw-image--tiled-ring"]};
+(function () {
+  "use strict";
+  const DATA = window.VIEWER_DATA || { attempts: [] };
+  const ROWS = window.ACTIVE_CHANNELS;
+  const IMG_BASE = DATA.image_base || "../work";
+  const attemptSel = document.getElementById("attempt");
+  const slider = document.getElementById("slider");
+  const timeEl = document.getElementById("time");
+  const mainEl = document.getElementById("main");
+  const prevBtn = document.getElementById("prev");
+  const nextBtn = document.getElementById("next");
+  const playBtn = document.getElementById("play");
+  let cur = null;     // current attempt object
+  let playTimer = null;
+
+  function fmtClock(ms) {
+    const d = new Date(ms);
+    const p = n => String(n).padStart(2, "0");
+    return p(d.getUTCHours()) + ":" + p(d.getUTCMinutes()) + ":" +
+           p(d.getUTCSeconds()) + "Z";
+  }
+
+  // Build the static 4-row scaffold once.
+  function buildScaffold() {
+    mainEl.innerHTML = "";
+    for (const [rowKey, chans] of Object.entries(ROWS)) {
+      const row = document.createElement("div");
+      row.className = "row";
+      row.dataset.row = rowKey;
+      const title = document.createElement("div");
+      title.className = "row-title";
+      title.textContent = rowKey + "  (" + chans.length + ")";
+      const cells = document.createElement("div");
+      cells.className = "cells";
+      if (rowKey === "row_1") {
+        const mapCell = document.createElement("div");
+        mapCell.className = "cell cell-map";
+        mapCell.dataset.channel = "__map__";
+        mapCell.innerHTML =
+          '<div class="cap"><b>trajectory</b><span class="t">map</span></div>' +
+          '<div class="empty">no map</div>';
+        cells.appendChild(mapCell);
+      }
+      for (const ch of chans) {
+        const cell = document.createElement("div");
+        cell.className = "cell";
+        cell.dataset.channel = ch;
+        cell.innerHTML =
+          '<div class="cap"><b>' + ch + '</b><span class="t">—</span></div>' +
+          '<div class="empty">no data</div>';
+        cells.appendChild(cell);
+      }
+      row.appendChild(title);
+      row.appendChild(cells);
+      mainEl.appendChild(row);
+    }
+  }
+
+  // Binary search: index of timestamp nearest to targetMs.
+  function nearestIndex(t, targetMs) {
+    let lo = 0, hi = t.length - 1;
+    if (targetMs <= t[0]) return 0;
+    if (targetMs >= t[hi]) return hi;
+    while (lo < hi) {
+      const mid = (lo + hi) >> 1;
+      if (t[mid] < targetMs) lo = mid + 1; else hi = mid;
+    }
+    if (lo > 0 && Math.abs(t[lo - 1] - targetMs) <= Math.abs(t[lo] - targetMs))
+      return lo - 1;
+    return lo;
+  }
+
+  function imgSrc(folder, file) {
+    return encodeURI(IMG_BASE + "/" + folder + "/" + file);
+  }
+
+  function render(targetMs) {
+    if (!cur) return;
+    timeEl.textContent = fmtClock(targetMs);
+    for (const cell of mainEl.querySelectorAll(".cell")) {
+      const tspan = cell.querySelector(".t");
+      if (cell.dataset.channel === "__map__") {
+        let img = cell.querySelector("img");
+        if (cur.svg) {
+          if (!img) {
+            const e = cell.querySelector(".empty"); if (e) e.remove();
+            img = document.createElement("img");
+            cell.appendChild(img);
+          }
+          const src = encodeURI("svg/" + cur.svg);
+          if (img.dataset.src !== src) { img.src = src; img.dataset.src = src; }
+          tspan.textContent = "map";
+        } else {
+          if (img) img.remove();
+          if (!cell.querySelector(".empty"))
+            cell.insertAdjacentHTML("beforeend", '<div class="empty">no map</div>');
+          tspan.textContent = "—";
+        }
+        continue;
+      }
+      const ch = cur.channels[cell.dataset.channel];
+      if (!ch) {
+        cell.querySelector("img, .empty")?.remove();
+        if (!cell.querySelector(".empty"))
+          cell.insertAdjacentHTML("beforeend", '<div class="empty">no data</div>');
+        tspan.textContent = "—";
+        continue;
+      }
+      const idx = nearestIndex(ch.t, targetMs);
+      const ms = ch.t[idx], file = ch.f[idx];
+      tspan.textContent = fmtClock(ms);
+      let img = cell.querySelector("img");
+      if (!img) {
+        const e = cell.querySelector(".empty"); if (e) e.remove();
+        img = document.createElement("img");
+        cell.appendChild(img);
+      }
+      const src = imgSrc(ch.folder, file);
+      if (img.dataset.src !== src) { img.src = src; img.dataset.src = src; }
+    }
+  }
+
+  function loadAttempt(i) {
+    cur = DATA.attempts[i] || null;
+    if (!cur) return;
+    const start = Math.floor(cur.start_ms / 1000);
+    const end = Math.floor(cur.end_ms / 1000);
+    slider.min = start; slider.max = end; slider.step = 1; slider.value = start;
+    slider.disabled = false;
+    prevBtn.disabled = nextBtn.disabled = playBtn.disabled = false;
+    render(start * 1000);
+  }
+
+  // --- events ---
+  attemptSel.addEventListener("change", () => loadAttempt(+attemptSel.value));
+  slider.addEventListener("input", () => render(+slider.value * 1000));
+  prevBtn.addEventListener("click", () => {
+    slider.value = Math.max(+slider.min, +slider.value - 1); render(+slider.value*1000);
+  });
+  nextBtn.addEventListener("click", () => {
+    slider.value = Math.min(+slider.max, +slider.value + 1); render(+slider.value*1000);
+  });
+  function setPlay(on) {
+    if (on && !playTimer) {
+      playTimer = setInterval(() => {
+        let v = +slider.value + 1;
+        if (v >= +slider.max) { v = +slider.max; setPlay(false); }
+        slider.value = v; render(v * 1000);
+      }, 220);
+      playBtn.textContent = "Pause";
+    } else {
+      clearInterval(playTimer); playTimer = null; playBtn.textContent = "Play";
+    }
+  }
+  playBtn.addEventListener("click", () => setPlay(!playTimer));
+  document.addEventListener("keydown", e => {
+    if (e.target === attemptSel) return;
+    if (e.key === "ArrowLeft") prevBtn.click();
+    else if (e.key === "ArrowRight") nextBtn.click();
+    else if (e.key === " ") { e.preventDefault(); playBtn.click(); }
+  });
+
+  // --- init ---
+  buildScaffold();
+  DATA.attempts.forEach((a, i) => {
+    const opt = document.createElement("option");
+    opt.value = i;
+    opt.textContent = a.label + "  [" + fmtClock(a.start_ms) + "]";
+    attemptSel.appendChild(opt);
+  });
+  if (DATA.attempts.length) loadAttempt(0);
+})();
+</script>
+</body>
+</html>
